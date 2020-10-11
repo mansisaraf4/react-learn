@@ -1,0 +1,9 @@
+Run command Eject to allow different css for different components by importing in the js files
+- npm run eject
+Above command not required for latest version >=2.
+
+For Windows - instead of Aux as the common grouping label use Auxiliary
+
+To validate prop types - install prop-types
+-- npm install --save prop-types
+Then use this to validate (Burger Ingredient.js)

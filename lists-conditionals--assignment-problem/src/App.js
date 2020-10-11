@@ -22,8 +22,8 @@ class App extends Component {
       const newText = [...this.state.text.split('')]
       newText.splice(charIndex, 1)
       // this.setState({text: newText})
-      console.log(newText)
-      this.setState({text:newText})
+      console.log(newText.join(''))
+      this.setState({text:newText.join('')})
     }
 
     // const validateLength = (inputLength) => {
